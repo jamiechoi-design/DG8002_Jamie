@@ -1,6 +1,6 @@
 h2 {
     color:goldenrod;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Jaro';
     font-size: 24px;
 }
 
@@ -12,4 +12,21 @@ h1 {
 body {
     background-color:lavender;
     margin: 20px;
+}
+
+.highlight {
+    background-color:rgb(154, 135, 239);
+    font-weight: bold;
+    color: rgb(255, 248, 188);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(187, 255, 226);
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
